@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Head styles */
+.header{
+    border-radius: 16px;
+background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('../images/Banner\ Image.png');
+position: absolute;
+width: 1320px;
+height: 600px;
+left: 170px;
+right: -120px;
+top: 50px;
+bottom: -50px;
+justify-content: center;
+margin-bottom: 120px;
+font-family: Merriweather;
+
+}
+.banner-text{
+    
+    color: rgb(255, 255, 255);
+letter-spacing: 0%;
+text-align: center;
+margin-top: 10%;
+
+}
+.banner-text h1{
+    font-size: 72px;
+    line-height: 95px;
+    padding-bottom: 16px;
+   
+}
+.banner-text p{
+    font-size: 32px;
+    line-height: auto;
+    margin-bottom: 16px;
+}
+/* discount sec styles */
+.discount{
+    /* Group 50 */
+position: absolute;
+width: 802.9px;
+height: 806px;
+left: 399px;
+right: 398.1px;
+top: 750px;
+/* bottom: 5759px; */
+text-align: center;
+letter-spacing: 0%;
+
+
+
+}
+.discount-content h1{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+line-height: 107px;
+margin-bottom: 48px;
+
+}
+.discount-content p{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+margin-bottom: 16px;
+}
+.discount-content h3{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+
+}
