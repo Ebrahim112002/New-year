@@ -15,6 +15,7 @@ bottom: -50px;
 justify-content: center;
 margin-bottom: 120px;
 font-family: Merriweather;
+margin-bottom: 120px;
 
 }
 .banner-text{
@@ -44,10 +45,12 @@ width: 802.9px;
 height: 806px;
 left: 399px;
 right: 398.1px;
-top: 750px;
+top: 730px;
 /* bottom: 5759px; */
 text-align: center;
 letter-spacing: 0%;
+margin-top: 0;
+margin-bottom: 120px;
 
 
 
@@ -66,6 +69,7 @@ margin-bottom: 48px;
 font-family: Inter;
 font-size: 24px;
 margin-bottom: 16px;
+margin-top: 0;
 }
 .discount-content h3{
     color: rgb(7, 2, 17);
@@ -73,5 +77,129 @@ font-family: Inter;
 font-size: 48px;
 font-weight: 700;
 line-height: 58px;
+margin-top: 0;
 
+}
+/* party section styles */
+.Party{
+    position:absolute;
+    width: 1320px;
+    height: 600px;
+    top: 220%;
+    bottom: -220%;
+    left: 10.61%;
+    right: -10.61%;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url('../images/Vectorrr.png');
+    margin-top: 0;
+    margin-bottom: 120px;
+    text-align: left;
+    
+    
+}
+.party-image{
+    position: absolute;
+    width: 349.16px;
+    height: 464.65px;
+    margin-left: 862.17px;
+    margin-right: 108px;
+    margin-top: 68.12px;
+
+}
+.party-content{
+    display: flex;
+}
+.content h2{
+    /* Welcome to midnight party */
+
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 11%;
+text-align: left;
+margin-top: 126px;
+margin-left: 126px;
+margin-bottom: 24px;
+}
+.content p{
+    color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 126px;
+margin-top: 0px;
+margin-bottom: 48px;
+}
+.content button{
+    color: rgb(255, 255, 255);
+    margin-left: 158px;
+    font-style: none;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+margin-top: 0px;
+background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+}
+.date{
+    /* Vector */
+position: absolute;
+width: 1320px;
+height: 482px;
+left: 10.61%;
+right: -10.61%;
+top: 320%;
+border-radius: 16px;
+margin-top: 0px;
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+.date-content{
+font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+
+margin-top: 100px;
+margin-bottom: 48px;
+}
+.btn{
+    border-radius: 8px;
+background: rgb(255, 0, 0);
+border: none;
+/* Frame 1 */
+position: relative;
+width: 167px;
+height: 56px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 16px 32px 16px 32px;
+
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+margin-left: 576px;
 }
