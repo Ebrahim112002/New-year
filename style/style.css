@@ -160,7 +160,7 @@ width: 1320px;
 height: 482px;
 left: 10.61%;
 right: -10.61%;
-top: 320%;
+top: 310%;
 border-radius: 16px;
 margin-top: 0px;
 background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
@@ -210,15 +210,13 @@ margin-left: 576px;
 
 /* offer sec styles */
 .offer {
-    position: relative;
+    position: absolute;
     margin: 0 auto; /* Centers the container */
-    background-color: aqua;
     display: flex;
     align-items: center; /* Aligns items vertically */
     justify-content: space-between; /* Adds space between content sections */
     padding: 20px; /* Adds padding to the section */
    /* Group 48 */
-position: absolute;
 width: 1320px;
 height: 463px;
 left: 140px;
@@ -314,4 +312,85 @@ bottom: 3854px;
     height: auto;
     margin-right: 145px;
     margin-top: 0;
+}
+
+
+/* sale sec styles */
+.sale{
+    /* Group 82 */
+position: relative;
+width: 1320px;
+height: 986.07px;
+left: 140px;
+right: -140px;
+top: 3601px;
+bottom: -3601px;
+text-align: center;
+}
+.sale-p1{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+margin-top: 0;
+margin-bottom: 16px;
+
+}
+.sale-content h1{
+    font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 91px;
+letter-spacing: 0%;
+margin-top: 0;
+margin-bottom: 28px;
+
+}
+.HOLIDAY{
+   color: rgb(255, 0, 0);
+}
+.sale-p2{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+margin-top: 0;
+margin-left: 126px;
+margin-right: 126px;
+margin-bottom: 0;
+}
+
+.sale-img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.sale-img1red {
+    position: absolute;
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    background: rgb(255, 0, 0);
+    left: 0; /* Align to the left edge */
+    right: 0; /* Ensure it spans the full width */
+    z-index: 0; /* Ensure it stays behind other elements */
+    margin-top: 497px;
+}
+
+.sale-img1 {
+    margin-top: 64px;
+    width: 796.46px;
+    height: 662.07px;
+    z-index: 1;
+}
+
+.sale-img2 {
+    width: 305.69px;
+    height: 305.69px;
+    margin-top: 141px;
 }
