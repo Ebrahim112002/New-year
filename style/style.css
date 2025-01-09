@@ -2,55 +2,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Head styles */
-.header{
+.header {
     border-radius: 16px;
-background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('../images/Banner\ Image.png');
-position: absolute;
-width: 1320px;
-height: 600px;
-left: 170px;
-right: -120px;
-top: 50px;
-bottom: -50px;
-justify-content: center;
-margin-bottom: 120px;
-font-family: Merriweather;
-margin-bottom: 120px;
-
+    background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('../images/Banner Image.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 1320px;
+    height: 600px;
+    left: 170px;
+    right: -120px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centers the content vertically */
+    margin-top: 50px;
+    margin-bottom: 120px;
+    font-family: Merriweather, serif;
 }
-.banner-text{
-    
+
+.banner-text {
     color: rgb(255, 255, 255);
-letter-spacing: 0%;
-text-align: center;
-margin-top: 10%;
-
+    text-align: center;
 }
-.banner-text h1{
+
+.banner-text2 h1 {
     font-size: 72px;
     line-height: 95px;
-    padding-bottom: 16px;
-   
 }
-.banner-text p{
+
+.banner-text2 p {
     font-size: 32px;
-    line-height: auto;
+    line-height: 1.5;
     margin-bottom: 16px;
+    margin-top: 20px; /* Adjust this to set the spacing */
 }
 /* discount sec styles */
 .discount{
     /* Group 50 */
-position: absolute;
-width: 802.9px;
-height: 806px;
-left: 399px;
-right: 398.1px;
-top: 730px;
-/* bottom: 5759px; */
-text-align: center;
-letter-spacing: 0%;
-margin-top: 0;
-margin-bottom: 120px;
+    position: relative;
+    width: 802.9px;
+    height: 806px;
+    left: 399px;
+    right: 398.1px;
+    text-align: center;
+    letter-spacing: 0%;
+    margin-top: 0; /* Updated margin for subsequent slides */
+    margin-bottom: 120px;
+
 
 
 
@@ -82,11 +80,11 @@ margin-top: 0;
 }
 /* party section styles */
 .Party{
-    position:absolute;
+    position:relative;
     width: 1320px;
     height: 600px;
-    top: 220%;
-    bottom: -220%;
+    /* top: 220%;
+    bottom: -220%; */
     left: 10.61%;
     right: -10.61%;
     border-radius: 16px;
@@ -153,17 +151,23 @@ background-color: Transparent;
     cursor:pointer;
     overflow: hidden; 
 }
+/* date section style */
 .date{
     /* Vector */
-position: absolute;
-width: 1320px;
-height: 482px;
-left: 10.61%;
-right: -10.61%;
-top: 310%;
-border-radius: 16px;
-margin-top: 0px;
-background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    position: relative;
+    width: 1320px;
+    height: 482px;
+    left: 10.61%;
+    right: -10.61%;
+    border-radius: 16px;
+    margin-top: 0px; /* Updated margin for subsequent slides */
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 .date-content{
 font-family: Inter;
@@ -201,7 +205,7 @@ line-height: 24px;
 letter-spacing: 0%;
 text-align: center;
 text-transform: uppercase;
-margin-left: 576px;
+/* margin-left: 576px; */
 }
 .date-sp{
     color: red;
@@ -210,8 +214,8 @@ margin-left: 576px;
 
 /* offer sec styles */
 .offer {
-    position: absolute;
-    margin: 0 auto; /* Centers the container */
+    position: relative;
+    /* margin: 0 auto; Centers the container */
     display: flex;
     align-items: center; /* Aligns items vertically */
     justify-content: space-between; /* Adds space between content sections */
@@ -221,8 +225,8 @@ width: 1320px;
 height: 463px;
 left: 140px;
 right: 140px;
-top: 3018px;
-bottom: 3854px;
+margin-top: 0;
+margin-bottom: 120px;
 }
 
 .offer-content {
@@ -323,9 +327,9 @@ width: 1320px;
 height: 986.07px;
 left: 140px;
 right: -140px;
-top: 3601px;
-bottom: -3601px;
 text-align: center;
+margin-top: 0;
+margin-bottom: 120px;
 }
 .sale-p1{
     color: rgb(7, 2, 17);
@@ -393,4 +397,274 @@ margin-bottom: 0;
     width: 305.69px;
     height: 305.69px;
     margin-top: 141px;
+}
+
+/* best gift section style */
+.best-gift{
+    /* Group 80 */
+position: relative;
+width: 1320px;
+height: 1163px;
+left: 140px;
+right: -140px;
+margin-top: 0;
+margin-bottom: 120px;
+}
+.best-giftp1{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 16px;
+}
+.best-gift-cnt h3{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+margin-top: 0;
+margin-bottom: 22px;
+}
+.best-giftp2{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 0;
+}
+.best-gift-img{
+    display: flex;
+    width: 424px;
+height: 450px;
+border-radius: 16px;
+background:dotted;
+}
+
+/* subscribe sec style */
+.subsribe {
+    /* Rectangle 11 */
+    position: relative;
+    width: 1320px;
+    height: 616px;
+    left: 140px;
+    right: -140px;
+    margin-top: 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-bottom: 120px;
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center elements vertically */
+    align-items: center; /* Center elements horizontally */
+    text-align: center;
+}
+
+.subsribe-img img {
+    width: 150px; /* Keep the specified width */
+    margin-bottom: 40px; /* Add margin to separate from the next element */
+}
+
+.subsribe-cnt {
+    display: flex;
+    flex-direction: column; /* Stack text vertically */
+    justify-content: center; /* Ensure vertical alignment within container */
+    align-items: center; /* Ensure horizontal alignment */
+    text-align: center; /* Center-align text inside the container */
+/* Add 40px gap between h2 and p */
+}
+
+.subsribe-cnt h2 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0; /* Remove default margins */
+    margin-bottom: 22px;
+}
+
+.subsribe-cnt p {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    margin-top: 0;
+}
+.subsribe-input{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.subribe-input input{
+   
+    width: 500px;
+height: 55px;
+border-radius: 50px;
+background: rgb(255, 255, 255);
+border: none;
+padding: 10px;
+
+}
+.subribe-input input::placeholder {
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    position: relative;
+    left: 50px;
+  }
+  .subribe-input button{
+    border: none;
+    position: relative;
+width: 210px;
+height: 72px;
+    border-radius: 0px 50px 50px 0px;
+background: rgb(255, 0, 0);
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+right: 40px;
+  }
+/* footer sec styles*/
+
+.ftr{
+    margin-top: 0;
+    position: relative;
+width:auto;
+height: 609px;
+    background: rgb(7, 2, 17);
+    margin-bottom: 0;
+}
+.ftr-cnt{
+    position: absolute;
+    width: 375px;
+height: 80px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 144px;
+margin-top: 120px;
+}
+.ftr-ic1 img{
+    width: 24px;
+height: 24px;
+}
+.ftr-ic1{
+    display: flex;
+    width: 235px;
+height: 40px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+text-align: left;
+margin-top: 120px;
+margin-left: 1074px;
+position: absolute;
+flex-direction: row;
+align-items: center;
+gap: 10px;
+}
+.ftr-ic1 img{
+    width: 24px;
+height: 24px;
+}
+.ftr-ic2{
+    display: flex;
+    width: 235px;
+height: 40px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+text-align: left;
+margin-top: 160px;
+margin-left: 1074px;
+position: absolute;
+flex-direction: row;
+align-items: center;
+gap: 10px;
+}
+.ftr-brdr{
+    width: 1320px;
+height: 0;
+border: 1px solid rgba(255, 255, 255, 0.15);
+margin-top: 249px;
+position: absolute;
+margin-left: 140px;
+}
+.ftr-brdr2{
+    width: 1320px;
+    height: 0;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 409px;
+    position: absolute;
+    margin-left: 140px;   
+}
+.ftr-icon{
+    position: absolute;
+    display: flex;
+    width: 64px;
+height: 64px;
+margin-left: 640px;
+margin-top: 298px;
+gap: 10px;
+
+}
+.ftr-cnt1{
+    position: absolute;
+width: 295px;
+height: 29px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 140px;
+margin-top: 460px;
+}
+.ftr-cnt2{
+    position: absolute;
+width: 295px;
+height: 29px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 1315px;
+margin-top: 460px;
 }
